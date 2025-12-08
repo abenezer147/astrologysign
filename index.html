@@ -14,5 +14,54 @@
         <span>AstrologySign</span>
     </a>
     <span>Made by 12nA group 6</span>
+    <h1>Enter your date of birth</h1>
+    <p>Use the format date/month/year to enter your birthday.</p>
+    <form>
+        <input 
+            type="number"
+            min="1"
+            max="31"
+            placeholder="01"
+            required
+            name="date"
+        >
+        <select 
+            name="month" 
+            required
+        >
+            <option value="january" selected>January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <input 
+            type="number" 
+            min="1800"
+            max="2027" 
+            placeholder="2000" 
+            required
+            name="year"
+        >
+        <button>See your sign</button>
+    </form>
+    <!-- This image is dynamic. -->
+    <img 
+        src="assets/signs/aquarius.svg" 
+        alt="Aquarius"
+    >
+    <!-- This text is dynamic. -->
+    <p>You were born on Tuesday, February 02, 2008. And your sign is Aquarius.</p>
+    <img
+        src="assets/accents/home-accent.svg" 
+        alt="Pink and blue-green textured circles."
+    >
 </body>
 </html>
