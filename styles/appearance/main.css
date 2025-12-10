@@ -2,7 +2,7 @@
     max-width: 12ch;
     line-height: 90%;
 
-    font-family: bebas-neue;
+    font-family: var(--ff-header);
     font-size: var(--fs-xl);
 
     text-align: center;
@@ -16,4 +16,8 @@
     font-size: var(--fs-sm);
 
     color: var(--clr-gray-700);
+}
+
+.home-accent-img {
+    width: 100%;
 }

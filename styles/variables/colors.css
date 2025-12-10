@@ -1,7 +1,10 @@
 :root {
     --clr-white: #ffffff;
     --clr-gray-100: #111111;
+    --clr-gray-200: #181818;
+    --clr-gray-300: #2d2d2d;
     --clr-gray-700: #b2b2b2;
+    --clr-black: #000000;
 
     --clr-teal-500: #1fa195;
 

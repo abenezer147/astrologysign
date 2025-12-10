@@ -4,8 +4,59 @@
     box-sizing: border-box;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 a {
     color: inherit;
     
     text-decoration: none;
+}
+
+img {
+    display: block;
+
+    max-width: 100%;
+}
+
+button,
+input,
+select,
+option {
+    font: inherit;
+    color: inherit;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+select {
+    appearance: base-select;
+}
+
+::picker(select) {
+    appearance: base-select;
+    border: none;
+    margin-top: 8px;
+}
+
+select::picker-icon {
+    display: none;
+}
+
+option::checkmark {
+    display: none;
 }

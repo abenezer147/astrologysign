@@ -20,8 +20,9 @@
     <span class="made-by">Made by 12nA group 6</span>
     <h1 class="headline">Enter your <span class="teal">date of birth</span></h1>
     <p class="sub-headline">Use the format date/month/year to enter your birthday.</p>
-    <form>
+    <form class="form">
         <input 
+            class="number-input"
             type="number"
             min="1"
             max="31"
@@ -47,6 +48,7 @@
             <option value="december">December</option>
         </select>
         <input 
+            class="number-input"
             type="number" 
             min="1800"
             max="2027" 
@@ -54,18 +56,21 @@
             required
             name="year"
         >
-        <button>See your sign</button>
+        <button class="cta">See your sign</button>
     </form>
-    <!-- This image is dynamic. -->
-    <img 
-        class="sign-img"
-        src="assets/signs/aquarius.svg" 
-        alt="Aquarius"
-    >
-    <!-- This text is dynamic. -->
-    <p>You were born on Tuesday, February 02, 2008. And your sign is Aquarius.</p>
+    <div class="result-display">
+        <!-- This image is dynamic. -->
+        <img
+            class="sign-img"
+            src="assets/signs/aquarius.svg"
+            alt="Aquarius"
+        >
+        <!-- This text is dynamic. -->
+        <p class="result-info">You were born on <span class="teal">Tuesday, February 02, 2008</span>. <span class="pink">And your sign is Aquarius</span>.</p>
+    </div>
     <img
-        src="assets/accents/home-accent.svg" 
+        class="home-accent-img"
+        src="assets/accents/home-accent.png" 
         alt="Pink and blue-green textured circles."
     >
 </body>
