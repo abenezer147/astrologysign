@@ -1,0 +1,27 @@
+.logo {
+    height: 32px;
+}
+
+.brand-name {
+    font-size: var(--fs-md);
+    font-weight: 600;
+}
+
+.brand-name .teal {
+    color: var(--clr-teal-500);
+}
+
+.brand-name .pink {
+    color: var(--clr-pink-500);
+}
+
+.made-by {
+    font-size: var(--fs-md);
+    color: var(--clr-gray-700);
+}
+
+@media (min-width: 800px) {
+    .logo {
+        height: 36px;
+    }
+}

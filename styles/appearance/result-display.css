@@ -1,0 +1,9 @@
+.sign-img {
+    height: 64px;
+}
+
+@media (min-width: 800px) {
+    .sign-img {
+        height: 96px;
+    }
+}

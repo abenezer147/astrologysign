@@ -1,4 +1,16 @@
 :root {
     --ff-body: instrument-sans;
     --ff-header: bebas-neue;
+
+    --fs-sm: 1.167rem;
+    --fs-md: 1.34rem;
+    --fs-xl: 5rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-sm: 1.34rem;
+        --fs-md: 1.5rem;
+        --fs-xl: 8rem;
+    }
 }

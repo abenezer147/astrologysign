@@ -1,0 +1,19 @@
+.headline {
+    max-width: 12ch;
+    line-height: 90%;
+
+    font-family: bebas-neue;
+    font-size: var(--fs-xl);
+
+    text-align: center;
+}
+
+.headline .teal {
+    color: var(--clr-teal-500);
+}
+
+.sub-headline {
+    font-size: var(--fs-sm);
+
+    color: var(--clr-gray-700);
+}
