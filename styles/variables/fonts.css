@@ -2,17 +2,17 @@
     --ff-body: instrument-sans;
     --ff-header: bebas-neue;
 
-    --fs-sm: 1.167rem;
-    --fs-md: 1.34rem;
+    --fs-sm: 1rem;
+    --fs-md: 1.167rem;
     --fs-lg: 2rem;
-    --fs-xl: 5rem;
+    --fs-xl: 4.5rem;
 }
 
 @media (min-width: 800px) {
     :root {
-        --fs-sm: 1.34rem;
-        --fs-md: 1.5rem;
+        --fs-sm: 1.167rem;
+        --fs-md: 1.37rem;
         --fs-lg: 2.67rem;
-        --fs-xl: 8rem;
+        --fs-xl: 7.5rem;
     }
 }

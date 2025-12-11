@@ -1,7 +1,7 @@
 .form .cta {
-    padding: 12px 28px;
+    padding: 12px 24px;
 
-    font-size: var(--fs-md);
+    font-size: var(--fs-sm);
     font-weight: 600;
 
     background-color: var(--clr-pink-500);
@@ -10,13 +10,49 @@
     border-radius: 9999px;
 }
 
-.form .number-input {
-    padding: 16px 32px;
+.form .number-input,
+.form .select-input {
+    border-radius: 9999px;
+}
+
+.form .number-input,
+.form .select-input,
+.form ::picker(select) {
+    padding: 12px 24px;
 
     background-color: var(--clr-gray-200);
     border: 1px solid var(--clr-gray-300);
-    border-radius: 9999px;
 
     text-align: center;
     font-size: var(--fs-sm);
+}
+
+.form .select-input option {
+    font-size: var(--fs-sm);
+    color: var(--clr-gray-700);
+    border-radius: 6px;
+    padding-block: 4px;
+}
+
+.form ::picker(select) {
+    border-radius: 8px;
+    overflow: auto;
+
+    height: fit-content;
+}
+
+@media (min-width: 800px) {
+    .form .cta {
+        padding: 16px 28px;
+    }
+
+    .form .number-input,
+    .form .select-input,
+    .form ::picker(select) {
+        padding: 16px 32px;
+    }
+
+    .form .select-input option {
+        padding-block: 6px;
+    }
 }

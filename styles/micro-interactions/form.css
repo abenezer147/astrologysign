@@ -1,0 +1,7 @@
+.form .cta {
+    transition: 0.25s all ease-in;
+}
+
+.form .cta:hover {
+    background-color: var(--clr-pink-400);
+}
