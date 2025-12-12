@@ -7,68 +7,77 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <a href="/">
-        <img 
-            class="logo"
-            src="assets/brand/logo.svg" 
-            alt="A blurry star representing AstrologySign's logo."
+    <navbar class="navbar wrapper">
+        <a
+            class="identity" 
+            href="/"
         >
-        <span class="brand-name">
-            <span class="teal">Astrology</span><span class="pink">Sign</span>
-        </span>
-    </a>
-    <span class="made-by">Made by 12nA group 6</span>
-    <h1 class="headline">Enter your <span class="teal">date of birth</span></h1>
-    <p class="sub-headline">Use the format date/month/year to enter your birthday.</p>
-    <form class="form">
-        <input 
-            class="number-input"
-            type="number"
-            min="1"
-            max="31"
-            placeholder="01"
-            required
-            name="date"
-        >
-        <select 
-            class="select-input"
-            name="month" 
-            required
-        >
-            <option value="january" selected>January</option>
-            <option value="february">February</option>
-            <option value="march">March</option>
-            <option value="april">April</option>
-            <option value="may">May</option>
-            <option value="june">June</option>
-            <option value="july">July</option>
-            <option value="august">August</option>
-            <option value="september">September</option>
-            <option value="october">October</option>
-            <option value="november">November</option>
-            <option value="december">December</option>
-        </select>
-        <input 
-            class="number-input"
-            type="number" 
-            min="1800"
-            max="2027" 
-            placeholder="2000" 
-            required
-            name="year"
-        >
-        <button class="cta">See your sign</button>
-    </form>
-    <div class="result-display">
-        <!-- This image is dynamic. -->
-        <img
-            class="sign-img"
-            src="assets/signs/aquarius.svg"
-            alt="Aquarius"
-        >
-        <!-- This text is dynamic. -->
-        <p class="result-info">You were born on <span class="teal">Tuesday, February 02, 2008</span>. <span class="pink">And your sign is Aquarius</span>.</p>
-    </div>
+            <img
+                class="logo"
+                src="assets/brand/logo.svg"
+                alt="A blurry star representing AstrologySign's logo."
+            >
+            <span class="brand-name">
+                <span class="teal">Astrology</span><span class="pink">Sign</span>
+            </span>
+        </a>
+        <span class="made-by">Made by 12nA group 6</span>
+    </navbar>
+    <main class="main wrapper">
+        <h1 class="headline">Enter your <span class="teal">date of birth</span></h1>
+        <p class="sub-headline">Use the format date/month/year to enter your birthday.</p>
+        <form class="form">
+            <div class="inputs">
+                <input
+                    class="number-input"
+                    type="number"
+                    min="1"
+                    max="31"
+                    placeholder="01"
+                    required
+                    name="date"
+                >
+                <select
+                    class="select-input"
+                    name="month"
+                    required
+                >
+                    <option value="january" selected>January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <input
+                    class="number-input"
+                    type="number"
+                    min="1800"
+                    max="2027"
+                    placeholder="2000"
+                    required
+                    name="year"
+                >
+            </div>
+            <button class="cta">See your sign</button>
+        </form>
+        <div class="result-display">
+            <!-- This image is dynamic. -->
+            <img
+                class="sign-img"
+                src="assets/signs/aquarius.svg"
+                alt="Aquarius"
+            >
+            <!-- This text is dynamic. -->
+            <p class="result-info">You were born on <span class="teal">Tuesday, February 02, 2008</span>. <span class="pink">And your sign is Aquarius</span>.</p>
+        </div>
+    </main>
     <img
         class="home-accent-img"
         src="assets/accents/home-accent.png" 

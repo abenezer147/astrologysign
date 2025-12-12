@@ -8,12 +8,15 @@
 }
 
 .sign-img {
-    height: 64px;
+    height: 96px;
 }
 
 .result-info {
     font-size: var(--fs-lg);
     font-family: var(--ff-header);
+    text-align: center;
+
+    max-width: 32ch;
 }
 
 .result-info .teal {
@@ -26,7 +29,7 @@
 
 @media (min-width: 800px) {
     .sign-img {
-        height: 96px;
+        height: 128px;
     }
 
     .result-display {

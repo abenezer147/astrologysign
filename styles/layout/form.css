@@ -1,0 +1,18 @@
+.form {
+    margin-bottom: 48px;
+}
+
+.form .inputs {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    margin-bottom: 16px;
+}
+
+.form .cta {
+    display: block;
+    margin-inline: auto;
+}

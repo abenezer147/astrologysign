@@ -13,6 +13,7 @@
 .form .number-input,
 .form .select-input {
     border-radius: 9999px;
+    min-width: fit-content;
 }
 
 .form .number-input,

@@ -1,0 +1,19 @@
+.main {
+    margin-bottom: 32px;
+}
+
+.main .headline {
+    margin-inline: auto;
+    margin-bottom: 16px;
+}
+
+.main .sub-headline {
+    margin-inline: auto;
+    margin-bottom: 24px;
+}
+
+.home-accent-img {
+    position: fixed;
+    bottom: 0;
+    z-index: -999;
+}

@@ -4,7 +4,6 @@
 
     font-family: var(--ff-header);
     font-size: var(--fs-xl);
-
     text-align: center;
 }
 
@@ -16,7 +15,10 @@
     font-size: var(--fs-sm);
 
     color: var(--clr-gray-700);
-}
+
+    max-width: 24ch;
+    text-align: center;
+}  
 
 .home-accent-img {
     width: 100%;
