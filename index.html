@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstrologySign</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/monthConversion.js"></script>
+    <script src="scripts/elements.js" defer></script>
+    <script src="scripts/getUserInput.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 </head>
 <body>
     <navbar class="navbar wrapper">
@@ -26,7 +30,10 @@
     <main class="main wrapper">
         <h1 class="headline">Enter your <span class="teal">date of birth</span></h1>
         <p class="sub-headline">Use the format date/month/year to enter your birthday.</p>
-        <form class="form">
+        <form
+            id="form" 
+            class="form"
+        >
             <div class="inputs">
                 <input
                     class="number-input"
