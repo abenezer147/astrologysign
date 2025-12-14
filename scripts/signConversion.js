@@ -36,7 +36,11 @@ const getSignConversion = (year) => {
             startDate: new Date(year, 10, 22),
             endDate: new Date(year, 11, 21)
         },
-        capricorn: {
+        capricornA: {
+            startDate: new Date(year, 11, 22),
+            endDate: new Date(year + 1, 0, 19)
+        },
+        capricornB: {
             startDate: new Date(year - 1, 11, 22),
             endDate: new Date(year, 0, 19)
         },

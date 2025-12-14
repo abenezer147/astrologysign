@@ -9,5 +9,8 @@ const getUserSign = (date, signs) => {
             userSign = sign;
     }
 
+    if (userSign === "capricornA" || userSign === "capricornB")
+        userSign = "capricorn";
+
     return userSign;
 }

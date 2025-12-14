@@ -11,6 +11,7 @@
     <script src="scripts/elements.js" defer></script>
     <script src="scripts/getUserInput.js" defer></script>
     <script src="scripts/getUserSign.js" defer></script>
+    <script src="scripts/displayResult.js" defer></script>
     <script src="scripts/main.js" defer></script>
 </head>
 <body>
@@ -77,7 +78,10 @@
             </div>
             <button class="cta">See your sign</button>
         </form>
-        <div class="result-display">
+        <div
+            id="result-display" 
+            class="result-display"
+        >
             <!-- This image is dynamic. -->
             <img
                 class="sign-img"
