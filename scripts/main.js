@@ -1,6 +1,6 @@
 formEl.addEventListener("submit", (e) => {
     const userInput = getUserInput(e);
+    const { structuredDate } = getStructuredDate(userInput);
 
-    const date = new Date(userInput.date, userInput.month, userInput.year);
-    console.log(monthConversion[`${userInput.month}`]);
+    // console.log(structuredDate);
 });
