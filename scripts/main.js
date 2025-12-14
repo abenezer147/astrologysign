@@ -1,6 +1,8 @@
 formEl.addEventListener("submit", (e) => {
     const userInput = getUserInput(e);
-    const { structuredDate } = getStructuredDate(userInput);
+    const { structuredDate, date } = getStructuredDate(userInput);
+    const signs = getSignConversion(date.getFullYear());
+    const userSign = getUserSign(date, signs);
 
-    // console.log(structuredDate);
+    console.log(userSign);
 });

@@ -1,4 +1,4 @@
-const getSigns = (year) => {
+const getSignConversion = (year) => {
     const signs = {
         aries: {
             startDate: new Date(year, 2, 21),
@@ -37,7 +37,7 @@ const getSigns = (year) => {
             endDate: new Date(year, 11, 21)
         },
         capricorn: {
-            startDate: new Date(year, 11, 22),
+            startDate: new Date(year - 1, 11, 22),
             endDate: new Date(year, 0, 19)
         },
         aquarius: {

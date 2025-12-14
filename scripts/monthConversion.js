@@ -8,7 +8,7 @@ const monthConversion = {
     july: 6,
     august: 7,
     september: 8,
-    octobor: 9,
+    october: 9,
     november: 10,
     december: 11
 }
